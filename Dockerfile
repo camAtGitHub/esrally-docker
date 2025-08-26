@@ -1,13 +1,13 @@
-FROM python:3.6-alpine
+FROM python:3.9-alpine
 
-LABEL maintainer "https://github.com/ryanmaclean"
+LABEL maintainer "https://github.com/camAtGitHub"
 
 ENV ENDPOINT="192.168.99.100:9200"
 ENV CREDENTIALS=""
 ENV CLUSTERHEALTH=""
 ENV PIPELINE="--pipeline=benchmark-only"
 ENV RALLYCONFIG="rally.ini"
-ENV RALLYVER="0.5.3"
+ENV RALLYVER="2.12.0"
 ENV HTTPPROXY=""
 ENV REPORTFMT="markdown"
 
